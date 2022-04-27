@@ -90,9 +90,9 @@ const mapDispatchToProps = (dispatch) => {
     //   dispatch({ type: SET_USERDATA, value: users });
     // },
 
-    setdatasaga: (users) => {
-        console.log('api called');
-      dispatch({ type: GET_USERDATA, value: users });
+    setdatasaga: () => {
+      // console.log("api called");
+      dispatch({ type: GET_USERDATA });
     },
   };
 };
